@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.android.fragmentexam.MainActivity" >
+	
+    <!-- 책제목 리스트 ListFragment -->
+<!--  
+    <fragment 
+        android:name="com.android.fragmentexam.BookListFragment2"
+        android:id="@+id/fragmentTitles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+-->    
+    <!-- 책 제목들의 리스 -->
+<!-- 
+	<fragment 
+	    android:name="com.android.fragmentexam.BookListFragment"
+	    android:id="@+id/fragmentTitles"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    tools:layout="@layout/fragment_book_list" />
+-->
+<!-- 	     
+  <fragment
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:name="com.android.fragmentexam.BookDescFragment"
+      android:id="@+id/fragmentDescription"
+      tools:layout="@layout/fragment_book_desc"/>
+ -->      
+</LinearLayout>
